@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 
+    {% block head_title %} {{ block.super }} | {{ autore }} {% endblock head_title %}
+
     {% block content %}
         <h1>La mia Libreria</h1>
         <br>

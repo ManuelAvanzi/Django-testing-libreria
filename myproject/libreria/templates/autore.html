@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 
+{% block head_title %} {{ block.super }} | {{ autore }} {% endblock head_title %}
+
     {% block content %}
         <h1>Autore : {{ autore }}</h1>
         <h3>Nazione : {{ autore.nazione }}</h3>
